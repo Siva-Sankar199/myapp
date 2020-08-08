@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.container{
+			width:450px;
+			height:450px;
+			background-color:lightgray;
+			border-radius: 15px;
+			border:2px solid black;
+			margin:auto auto;
+			position:relative;
+			top:80px;
+
+		}
+		input#username{
+			position: absolute;
+			left:60px;
+			top:100px;
+			width:300px;
+			height:35px;
+			font-size: 18px;
+
+
+		}
+		input#username:hover{
+			background-color: lightblue;
+			color:black;
+			
+
+		}
+
+
+
+		input#password{
+			position: absolute;
+			left:60px;
+			top:150px;
+			width:300px;
+			height:35px;
+			font-size: 18px;
+
+		}
+		input#password:hover{
+			background-color: lightblue;
+			color:black;
+			
+
+		}
+
+
+		div.heading{
+			font-size: 20px;
+			font-weight: bolder;
+			font-family: sans-serif;
+		    
+			position: absolute;
+			left:40%;
+			top:10%;
+		}
+
+		input#Login{
+			position: absolute;
+			left:200px;
+			top:220px;
+			width:60px;
+			height:30px;
+		
+			
+
+		}
+
+
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="heading">Gmail</div>
+		<form >
+			<input type="email" placeholder="Enter Email id" id="username" required="true">
+			<input type="password" placeholder="Enter Password" id="password" required="true" >
+			<input type="submit" value="Login" id="Login" >
+
+
+		</form>
+	</div>
+
+</body>
+</html>
